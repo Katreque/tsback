@@ -1,0 +1,22 @@
+{
+  "name": "tsback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katreque",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "connect-mongo": "^2.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
